@@ -1,0 +1,27 @@
+main{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+    max-width:auto;
+    margin:20px auto;
+    /* height: 00px; */
+}
+#pokemons{
+    display: grid;
+    /* grid-template: repeat(4,1fr)/repeat(4,1fr); */
+    grid-template-rows: repeat(10,1fr);
+    grid-template-columns: repeat(4,1fr);
+}
+#pokemons div{
+    width: 150px;
+    height: 200px;
+    border-radius: 5px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
